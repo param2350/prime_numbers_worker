@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculate Prime Numbers</h1>
+        <div class="input-group">
+            <input type="number" id="maxPrime" placeholder="Enter a number" class="input-field">
+            <button onclick="startWorker()" class="btn">Calculate Primes</button>
+            <button onclick="stopWorker()" class="btn btn-red">Stop Calculation</button>
+        </div>
+        <p id="progress" class="progress-text">Progress: 0%</p>
+        <div id="result" class="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
